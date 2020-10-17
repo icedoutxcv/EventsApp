@@ -101,6 +101,16 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		CD4F0572253B4D19005DAF04 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CD6CE0D9252A546400C28D5A /* EventsApp.xcdatamodeld */,
+				CD6CE0DD252A55E300C28D5A /* CoreDataManager.swift */,
+				CDA73E942531D3B000D21BC0 /* EventsCellBuilder.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		CD6CE0A8252A4F0B00C28D5A = {
 			isa = PBXGroup;
 			children = (
@@ -126,15 +136,13 @@
 				CD790F22252EDD0600B51BF9 /* ViewModels */,
 				CD790F27252EDD7D00B51BF9 /* Views */,
 				CD6CE0D8252A543500C28D5A /* Controllers */,
-				CD6CE0D7252A542A00C28D5A /* Coordinator */,
+				CD6CE0D7252A542A00C28D5A /* Coordinators */,
 				CD6CE0D6252A541F00C28D5A /* Extensions */,
+				CD4F0572253B4D19005DAF04 /* Other */,
 				CD6CE0BA252A4F0B00C28D5A /* Main.storyboard */,
 				CD6CE0BD252A4F0B00C28D5A /* Assets.xcassets */,
 				CD6CE0BF252A4F0B00C28D5A /* LaunchScreen.storyboard */,
 				CD6CE0C2252A4F0B00C28D5A /* Info.plist */,
-				CD6CE0D9252A546400C28D5A /* EventsApp.xcdatamodeld */,
-				CD6CE0DD252A55E300C28D5A /* CoreDataManager.swift */,
-				CDA73E942531D3B000D21BC0 /* EventsCellBuilder.swift */,
 			);
 			path = EventsApp;
 			sourceTree = "<group>";
@@ -151,7 +159,7 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		CD6CE0D7252A542A00C28D5A /* Coordinator */ = {
+		CD6CE0D7252A542A00C28D5A /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
 				CD6CE0C9252A4F1900C28D5A /* AppCoordinator.swift */,
@@ -161,7 +169,7 @@
 				CDD1B300253350960011DC36 /* EventDetailCoordinator.swift */,
 				CD2F1A572534DD140074EA62 /* EditEventCoordinator.swift */,
 			);
-			path = Coordinator;
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
 		CD6CE0D8252A543500C28D5A /* Controllers */ = {
